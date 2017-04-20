@@ -106,7 +106,7 @@ function roll(){
     total = rand+rand2;
     console.log(total, path, path2);
 
-    document.getElementById("leftside").style.visibility="hidden";
+    $("#leftside").hide();
     $("#reset").show();
     $("#endBtn").show();
 
